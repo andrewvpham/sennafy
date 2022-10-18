@@ -25,7 +25,7 @@ function App() {
             <Nav.Link>Character Info</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/items">
-            <Nav.Link>Item Meta</Nav.Link>
+            <Nav.Link>Items and Runes</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/players">
             <Nav.Link>Players</Nav.Link>

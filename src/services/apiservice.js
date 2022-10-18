@@ -1,6 +1,6 @@
 import axios from "axios";
 
-class ApiService {
+class ApiService {  
 
     async getChampionData() {
         return axios.get('http://ddragon.leagueoflegends.com/cdn/12.19.1/data/en_US/champion.json')
@@ -9,6 +9,7 @@ class ApiService {
         })
         //http://ddragon.leagueoflegends.com/cdn/12.19.1/data/en_US/champion.json
     }
+
 
 
 }
